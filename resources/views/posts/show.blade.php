@@ -14,7 +14,7 @@
         <div class="content">
             <div class="content_post">
                 <h3>本文</h3>
-                <a href="">{{ $post->category->name }}</a>
+                <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
                 <p>{{ $post->body }}</p>
             </div>
         </div>
