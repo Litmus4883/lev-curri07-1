@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//postsアドレスにgetリクエストしたとき、postcontrollerクラスのindexアクションを呼び出す
 Route::get('/posts', [PostController::class, 'index']);
